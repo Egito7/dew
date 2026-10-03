@@ -26,3 +26,28 @@ img {
     max-width: 150px;   
 }
 
+.banner {
+    background-image: url('/dew/Background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hide {
+    display: none;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: white;
+}
+
+.body {
+    margin: 20px;
+    padding: 20px;
+}
+
+a:hover {
+    opacity: 0.5;
+}
