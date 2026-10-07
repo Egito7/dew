@@ -27,9 +27,12 @@ img {
 }
 
 .banner {
-    background-image: url('/dew/Background.jpg');
+    background-image: url('/dew/BackgroundGame.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    color: white;
+    background-size: 100%;
+    
 }
 
 .hide {
@@ -50,4 +53,51 @@ img {
 
 a:hover {
     opacity: 0.5;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    padding: 10px;
+    background-color: darkkhaki;
+    width: 100%;
+}
+
+.header .nav {
+    text-align: center;
+}
+
+.header .nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.body {
+    margin: 0;
+}
+
+.main {
+    padding: 20px;
+}
+
+.products-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.product {
+    text-align: center;
+    border: 1px solid #ccc;
+    flex-basis: 30%;
+}
+
+.product {
+    max-width: 100%;
+    max-height: 150px;
 }
